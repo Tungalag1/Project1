@@ -1,0 +1,41 @@
+.A, .C{
+	min-width: 100px;
+	min-height: 100px;
+	background-color:#dfe1e7;
+	border-top: 1px solid #687291;
+	font-size: 40px;
+	text-align: center;
+	
+}
+.B , .D , .E {
+	min-width: 100px;
+	min-height: 100px;
+	background-color: #eeeff2;
+	border-top: 1px solid #687291;
+	font-size: 40px;
+	text-align: center;
+}
+.F{
+	min-width: 100px;
+	min-height: 100px;
+	background-color: #687291;
+	border: 4px solid;
+	font-size:40px;
+	line-height: 100px;
+	text-align: center;
+}
+#container{
+	display:flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	justify-content: space-between;
+	font-family: Tahoma, sans-serif;
+}
+html,body {
+	margin:0;
+	padding: 0;
+	height: 100%;
+}

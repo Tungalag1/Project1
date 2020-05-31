@@ -1,0 +1,87 @@
+#container {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 100vh;
+	font-family: Tahoma, sans-serif;
+}
+.A, .C{
+	width: 100px;
+	height: 150px;
+	background-color:#eeeff2;
+	font-size: 40px;
+	border-left: 10px dotted  #D0D0FF ;
+	align-self: flex-start;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px green;	
+	
+}
+.B , .D , .E {
+	width: 100px;
+	height: 150px;
+	background-color: #eeeff2;
+	font-size: 40px;
+	border-left: 10px dotted  #D0D0FF ;
+	align-self: flex-start;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px green;
+}
+.F{
+	width: 100px;
+	height: 150px;
+	background-color:#eeeff2 ;
+	font-size:40px;
+	border-left: 10px dotted #D0D0FF;
+	align-self: flex-end;
+	padding: 10px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+	box-shadow: 5px 5px green;
+}
+#container > div:hover{
+	background-color: yellow;
+	color: goldenrod;
+	cursor: pointer;	
+
+}
+@keyframes example {
+  from {background-color: blue}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+.A{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 2s;
+}
+.B{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 2s;
+}
+.C{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 2s;
+}
+.D{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 2s;
+}
+.E{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 2s;
+}
+.F{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 2s;
+}
